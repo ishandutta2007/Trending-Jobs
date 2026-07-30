@@ -41,9 +41,9 @@ def add_annotations(data_list, color_hex, bg_hex, text_y_offset):
         )
 
 # Apply automated annotations with strategic vertical spacing adjustments
-add_annotations(fde_job_postings, '#0369a1', '#f0f9ff', 12)
-add_annotations(ai_eng_job_postings, '#991b1b', '#fef2f2', 12)
-add_annotations(platform_eng_job_postings, '#047857', '#ecfdf5', -18)
+add_annotations(fde_job_postings, '#0369a1', '#f0f9ff', -12)
+add_annotations(ai_eng_job_postings, '#991b1b', '#fef2f2', 18)
+add_annotations(platform_eng_job_postings, '#047857', '#ecfdf5', 12)
 add_annotations(ai_solutions_arch, '#6d28d9', '#f5f3ff', 12)
 
 # Chart layout titles and structured axis labeling
