@@ -1,3 +1,5 @@
+![Trending Jobs Banner](assets/banner.svg)
+
 # 📈 Trending Jobs Market Growth Comparison (2021–2026)
 
 A data visualization project mapping the exponential growth of emerging technology roles over a 5-year tracking period. This repository analyzes absolute unique open positions across major job aggregators to visualize shifts in engineering demand.
