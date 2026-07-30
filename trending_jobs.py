@@ -62,5 +62,13 @@ plt.grid(axis='y', linestyle='--', alpha=0.5, zorder=0)
 plt.ylim(-3000, 43000)
 plt.legend(loc='upper left', frameon=True, facecolor='#ffffff', edgecolor='#cbd5e1', fontsize=10)
 
+# Save the generated plot in assets folder
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+assets_dir = os.path.join(script_dir, 'assets')
+os.makedirs(assets_dir, exist_ok=True)
+output_path = os.path.join(assets_dir, 'trending_jobs_growth.png')
+plt.savefig(output_path, dpi=300, bbox_inches='tight')
+
 plt.tight_layout()
 plt.show()
